@@ -1,0 +1,60 @@
+/* Overall styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Header */
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Framework list */
+  .frameworks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .frameworks li {
+    margin-bottom: 10px;
+  }
+  
+  .frameworks a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  /* Selected framework section */
+  .selected-framework {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .selected-framework h2 {
+    margin-bottom: 5px;
+  }
+  
+  /* Assessment form (Optional) */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  /* Customize these styles further based on your preferences */
+  
